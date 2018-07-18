@@ -1,0 +1,54 @@
+<html>
+	<head>
+	<style>
+		.img {
+		display:flex;
+		justify-content:center;
+		text-align:center;
+
+	}
+	
+	.buttons{
+		display:flex;
+		justify-content:center;
+		margin:20px;
+	}	
+	 #showme{
+	 	padding:10px;
+	 	border:8px solid black;
+	 }
+	 
+	  #hide{
+	  	padding:10px;
+     	border:8px solid blue;
+	 }
+	</style>
+         <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		
+	</head>
+		<body>
+		 
+		 <h1 id="reply"></h1>
+		 	
+	<img id="ghost" src="http://d2trtkcohkrm90.cloudfront.net/images/emoji/apple/ios-10/256/ghost.png">
+
+	<div class="buttons">
+	<button id="hide"> Hide me</button>
+	<button id="showme">show me</button>
+	</div>
+	
+	<script type="text/javascript">
+		$("#ghost").hide();
+	
+		$("#showme").click(function() {
+	      $("#reply").text("Boo!");
+	      $("#ghost").show();
+    	});
+    	
+    	$("#hide").click(function(){
+    		$("#ghost").hide();
+    	});
+    	
+	</script>
+	</body>
+</html>

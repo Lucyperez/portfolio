@@ -1,0 +1,36 @@
+ 
+      body {
+          background-image:url('guatemala.jpg');
+        background-size: 100%;
+          margin:0;
+          padding:0;
+      }
+         .page {
+        text-align: center;
+        color: purple;
+        font-family: 'Roboto';
+      }
+     
+      .content {
+        background-color:#D3CAC2;
+        border: 5px solid blue;
+        margin: 0 auto;
+        width: 720px;
+      }
+      .first-line {
+        color:blue;
+        background-color: green;
+        font-family: 'Frank+Ruh1+Libre';
+        font-size: 20;
+      }
+      .second-line {
+        color: red;
+        background-color: blue;
+        font-size:20;
+      }
+      .third-line {
+        color:green;
+        background-color:orange;
+        font-size: 20;
+        font-family: 'Cormorant';
+      }

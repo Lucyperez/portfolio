@@ -1,0 +1,98 @@
+<html>
+
+<head>
+	<style>
+	h1{
+		display:flex;
+		justify-content:center;
+	}
+	#pizza{
+	width:200px;
+	}
+	#salad{
+	width:200px;
+	}
+	#soda{
+	width:200px;
+	}
+	#Garlic-Knots{
+	width:200px;
+	}
+    #spaghetti{
+	width:200px;
+	}
+	#takeout-bag{
+	width:200px;
+	}
+	h1{
+	border:5px solid red;
+	color:white;
+	}
+	body{
+		background-color:indigo;
+	}
+	h2{
+		color:white;
+	}
+	ul{
+		color:yellow;
+	}
+	p{
+		color:lightblue;
+	}
+	
+	</style>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+</head>
+
+<body>
+	<h1>Cocos' Pizza</h1>
+	<p>What would you like to purchase?</p>
+	<h2>Menu</h2>
+
+	<ul>
+	 <li><a id="pizza-link">Pizza</a></li>
+	 <li><a id="salad-link">Salid</a></li>
+	 <li><a id="soda-link">Soda</a></li>
+	 <li><a id="garlic-knots-link">Garlic Knots</a></li>
+	 <li><a id="spaghetti-link">Spaghetti</a></li>
+	  <li><a id="bag"></li>
+	</ul>
+	<img id="pizza" src="https://www.cicis.com/media/1140/pizza_adven_hampineapple.png">
+	<img id="salad" src="http://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/6/17/3/FNM080109Insert030_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1382538880982.jpeg">
+	<img id="soda" src="https://www.dietsinreview.com/diet_column/wp-content/uploads/2013/01/soda-bans.jpg">
+	<img id="garlic-knots" src="https://toriavey.com/images/2015/11/IMG_6496-2.jpg">
+	<img id="spaghetti" src="https://cdn5.norecipes.com/wp-content/uploads/2012/10/23052346/recipespaghetti-meat-sauce-recipe.1024x1024-1.jpg">
+	<img id="bag1" src="https://d1yeq28w16ty56.cloudfront.net/media/catalog/product/cache/small_image/240x300/beff4985b56e3afdbeabfc89641a4582/4/1/41cl95rz38l.jpg">
+	 <p>Would you like to pay?</p>	
+	 <button id="Yes">Yes</button>
+	  <button id="No">No</button>
+	 
+	
+	<script>
+	$("#pizza-link").click(function(){
+		$("#pizza").toggle();	
+	});
+	$("#salad-link").click(function(){
+		$("#salad").toggle();	
+	});
+	$("#soda-link").click(function(){
+		$("#soda").toggle();	
+	});
+	$("#garlic-knots-link").click(function(){
+		$("#garlic-knots").toggle();	
+	});
+	$("#spaghetti-link").click(function(){
+		$("#spaghetti").toggle();
+	});
+	$("#Yes").click(function(){
+		$("#bag1").show();jo      n hh                                                                                                                                                                                                                                                                                                                                                                        
+	});
+	$("#No").click(function(){
+		$("#bag1").hide();
+	});
+	
+	</script>
+</body>
+
+</html>
