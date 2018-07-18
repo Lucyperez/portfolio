@@ -79,3 +79,12 @@ background-color:#d966ff;
     justify-content:space-between;
     margin:70px;
  }
+ 
+ #center{
+     display: flex;
+     justify-content:center;
+     color:green;
+     background-color:pink;
+     padding: 10px;
+     
+ }
